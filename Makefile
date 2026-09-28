@@ -119,7 +119,7 @@ SED ?= $(shell which gsed 2>/dev/null || which sed)
 		--build-arg=goproxyValue=$(GOPROXY_VALUE) \
 		--build-arg=USE_BINARY_SUFFIX=true \
 		--build-arg=BINARY_SUFFIX=_race \
-		--build-arg=BASEIMG="gcr.io/distroless/base-nossl-debian13@sha256:792f51c506fc67f7eaa38093f6d4937a053cebb79ec0e7c3b7746f6bbba85606" \
+		--build-arg=BASEIMG="gcr.io/distroless/base-nossl-debian13@sha256:af5cb8dd589b8520b8c06bebb9efb73d7e16406cab58e85c51761fff49d370a0" \
 		-t $(IMAGE_PREFIX)$(shell basename $(@D)):$(IMAGE_TAG_RACE) $(@D)/
 	@echo
 	@echo Go binaries were built using GOOS=$(GOOS) and GOARCH=$(GOARCH)
