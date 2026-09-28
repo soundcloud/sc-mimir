@@ -577,7 +577,7 @@ jobs:
       # Upload Linux binaries for build-packages always. The rest, for releases only.
       - name: Upload dist artifacts
         if: matrix.os == 'linux' || startsWith(github.ref, 'refs/tags/mimir-')
-        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
           name: dist-${{ matrix.os }}-${{ matrix.arch }}
           path: dist/
@@ -608,7 +608,7 @@ jobs:
       # Only the release job consumes these, so they're only uploaded for release tags.
       - name: Upload packages artifacts
         if: startsWith(github.ref, 'refs/tags/mimir-')
-        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
           name: packages
           path: |
