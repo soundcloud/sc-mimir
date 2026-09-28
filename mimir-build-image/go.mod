@@ -235,7 +235,7 @@ require (
 	github.com/moby/moby/client v0.5.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
-	github.com/monitoring-mixins/mixtool v0.0.0-20260601112845-38e45c0e7e86 // indirect
+	github.com/monitoring-mixins/mixtool v0.0.0-20260629085351-496ea9a28ba9 // indirect
 	github.com/muhammadmuzzammil1998/jsonc v1.0.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
