@@ -407,4 +407,4 @@ replace github.com/go-ini/ini v1.67.3 => gopkg.in/ini.v1 v1.67.3
 replace github.com/hashicorp/memberlist => github.com/grafana/memberlist v0.3.1-0.20251126142931-6f9f62ab6f86
 
 // Use Mixtool PR #246 until its Prometheus rulefmt API update is merged upstream.
-replace github.com/monitoring-mixins/mixtool => github.com/aknuds1/mixtool v0.0.0-20260601112845-38e45c0e7e86
+replace github.com/monitoring-mixins/mixtool => github.com/aknuds1/mixtool v0.0.0-20260722071955-265e0ef9cc73
